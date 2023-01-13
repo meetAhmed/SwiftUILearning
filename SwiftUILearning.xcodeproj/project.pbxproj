@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10CD40C297147A1006E76A3 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CD40B297147A1006E76A3 /* CustomShapesBootcamp.swift */; };
+		F10CD40E29715DBA006E76A3 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CD40D29715DBA006E76A3 /* CustomCurvesBootcamp.swift */; };
+		F10CD4102971633D006E76A3 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CD40F2971633D006E76A3 /* AnimateableDataBootcamp.swift */; };
+		F10CD412297178AF006E76A3 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CD411297178AF006E76A3 /* GenericsBootcamp.swift */; };
+		F10CD41429718216006E76A3 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10CD41329718216006E76A3 /* ViewBuilderBootcamp.swift */; };
+		F1A38C6C296FE47200CEFC64 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */; };
+		F1A38C70296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */; };
+		F1A38C72296FF7A900CEFC64 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */; };
+		F1CBA732296E9D2000AA4BC7 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */; };
+		F1CBA736296E9D2200AA4BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA735296E9D2200AA4BC7 /* Assets.xcassets */; };
+		F1CBA739296E9D2200AA4BC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA738296E9D2200AA4BC7 /* Preview Assets.xcassets */; };
+		F1CBA744296E9F0600AA4BC7 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA743296E9F0600AA4BC7 /* LongPressGestureBootcamp.swift */; };
+		F1CBA746296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA745296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift */; };
+		F1CBA748296EAE7200AA4BC7 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA747296EAE7200AA4BC7 /* RotationGestureBootcamp.swift */; };
+		F1CBA74A296EB10E00AA4BC7 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA749296EB10E00AA4BC7 /* DragGestureBootcamp.swift */; };
+		F1CBA74C296EB72400AA4BC7 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA74B296EB72400AA4BC7 /* DragGestureBootcamp2.swift */; };
+		F1CBA74E296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA74D296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift */; };
+		F1CBA751296EDD1100AA4BC7 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA750296EDD1100AA4BC7 /* UIApplication.swift */; };
+		F1CBA753296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA752296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift */; };
+		F1CBA755296EE35800AA4BC7 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA754296EE35800AA4BC7 /* MultipleSheetsBootcamp.swift */; };
+		F1CBA757296EF15200AA4BC7 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA756296EF15200AA4BC7 /* MaskBootcamp.swift */; };
+		F1CBA759296EF45600AA4BC7 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA758296EF45600AA4BC7 /* SoundsBootcamp.swift */; };
+		F1CBA75D296EF6C200AA4BC7 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA75B296EF6C200AA4BC7 /* badum.mp3 */; };
+		F1CBA75E296EF6C200AA4BC7 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA75C296EF6C200AA4BC7 /* tada.mp3 */; };
+		F1CBA760296EF84200AA4BC7 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA75F296EF84200AA4BC7 /* HapticsBootcamp.swift */; };
+		F1CBA762296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA761296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift */; };
+		F1F55325297005F70053E660 /* ViewModifiersBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55324297005F70053E660 /* ViewModifiersBootcamp.swift */; };
+		F1F55327297009560053E660 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55326297009560053E660 /* ButtonStyleBootcamp.swift */; };
+		F1F55329297027900053E660 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55328297027900053E660 /* AnyTransitionBootcamp.swift */; };
+		F1F5532B29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5532A29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10CD40B297147A1006E76A3 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
+		F10CD40D29715DBA006E76A3 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
+		F10CD40F2971633D006E76A3 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		F10CD411297178AF006E76A3 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		F10CD41329718216006E76A3 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsBootcamp.swift; sourceTree = "<group>"; };
+		F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA72E296E9D2000AA4BC7 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
+		F1CBA735296E9D2200AA4BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CBA738296E9D2200AA4BC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1CBA743296E9F0600AA4BC7 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA745296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA747296EAE7200AA4BC7 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA749296EB10E00AA4BC7 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA74B296EB72400AA4BC7 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
+		F1CBA74D296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA750296EDD1100AA4BC7 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		F1CBA752296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA754296EE35800AA4BC7 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA756296EF15200AA4BC7 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA758296EF45600AA4BC7 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA75B296EF6C200AA4BC7 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		F1CBA75C296EF6C200AA4BC7 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		F1CBA75F296EF84200AA4BC7 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		F1CBA761296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		F1F55324297005F70053E660 /* ViewModifiersBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersBootcamp.swift; sourceTree = "<group>"; };
+		F1F55326297009560053E660 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		F1F55328297027900053E660 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		F1F5532A29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CBA72B296E9D2000AA4BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CBA725296E9D2000AA4BC7 = {
+			isa = PBXGroup;
+			children = (
+				F1CBA730296E9D2000AA4BC7 /* SwiftUILearning */,
+				F1CBA72F296E9D2000AA4BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CBA72F296E9D2000AA4BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA72E296E9D2000AA4BC7 /* SwiftUILearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CBA730296E9D2000AA4BC7 /* SwiftUILearning */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA740296E9D4000AA4BC7 /* Core */,
+				F1CBA74F296EDCF000AA4BC7 /* Extensions */,
+				F1CBA73F296E9D2700AA4BC7 /* Supporting Files */,
+				F1CBA75A296EF6AE00AA4BC7 /* Sounds */,
+			);
+			path = SwiftUILearning;
+			sourceTree = "<group>";
+		};
+		F1CBA737296E9D2200AA4BC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA738296E9D2200AA4BC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1CBA73F296E9D2700AA4BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */,
+				F1CBA735296E9D2200AA4BC7 /* Assets.xcassets */,
+				F1CBA737296E9D2200AA4BC7 /* Preview Content */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1CBA740296E9D4000AA4BC7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA743296E9F0600AA4BC7 /* LongPressGestureBootcamp.swift */,
+				F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */,
+				F1CBA745296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift */,
+				F1CBA754296EE35800AA4BC7 /* MultipleSheetsBootcamp.swift */,
+				F1CBA747296EAE7200AA4BC7 /* RotationGestureBootcamp.swift */,
+				F1CBA749296EB10E00AA4BC7 /* DragGestureBootcamp.swift */,
+				F1CBA74B296EB72400AA4BC7 /* DragGestureBootcamp2.swift */,
+				F1CBA74D296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift */,
+				F1CBA752296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift */,
+				F1CBA756296EF15200AA4BC7 /* MaskBootcamp.swift */,
+				F1CBA758296EF45600AA4BC7 /* SoundsBootcamp.swift */,
+				F1CBA75F296EF84200AA4BC7 /* HapticsBootcamp.swift */,
+				F1CBA761296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift */,
+				F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */,
+				F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */,
+				F1F55324297005F70053E660 /* ViewModifiersBootcamp.swift */,
+				F1F55326297009560053E660 /* ButtonStyleBootcamp.swift */,
+				F1F55328297027900053E660 /* AnyTransitionBootcamp.swift */,
+				F1F5532A29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift */,
+				F10CD40B297147A1006E76A3 /* CustomShapesBootcamp.swift */,
+				F10CD40D29715DBA006E76A3 /* CustomCurvesBootcamp.swift */,
+				F10CD40F2971633D006E76A3 /* AnimateableDataBootcamp.swift */,
+				F10CD411297178AF006E76A3 /* GenericsBootcamp.swift */,
+				F10CD41329718216006E76A3 /* ViewBuilderBootcamp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F1CBA74F296EDCF000AA4BC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA750296EDD1100AA4BC7 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1CBA75A296EF6AE00AA4BC7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBA75B296EF6C200AA4BC7 /* badum.mp3 */,
+				F1CBA75C296EF6C200AA4BC7 /* tada.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CBA72D296E9D2000AA4BC7 /* SwiftUILearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CBA73C296E9D2200AA4BC7 /* Build configuration list for PBXNativeTarget "SwiftUILearning" */;
+			buildPhases = (
+				F1CBA72A296E9D2000AA4BC7 /* Sources */,
+				F1CBA72B296E9D2000AA4BC7 /* Frameworks */,
+				F1CBA72C296E9D2000AA4BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUILearning;
+			productName = SwiftUILearning;
+			productReference = F1CBA72E296E9D2000AA4BC7 /* SwiftUILearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CBA726296E9D2000AA4BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					F1CBA72D296E9D2000AA4BC7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F1CBA729296E9D2000AA4BC7 /* Build configuration list for PBXProject "SwiftUILearning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CBA725296E9D2000AA4BC7;
+			productRefGroup = F1CBA72F296E9D2000AA4BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CBA72D296E9D2000AA4BC7 /* SwiftUILearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CBA72C296E9D2000AA4BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBA75E296EF6C200AA4BC7 /* tada.mp3 in Resources */,
+				F1CBA75D296EF6C200AA4BC7 /* badum.mp3 in Resources */,
+				F1CBA739296E9D2200AA4BC7 /* Preview Assets.xcassets in Resources */,
+				F1CBA736296E9D2200AA4BC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CBA72A296E9D2000AA4BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A38C6C296FE47200CEFC64 /* HashableBootcamp.swift in Sources */,
+				F10CD41429718216006E76A3 /* ViewBuilderBootcamp.swift in Sources */,
+				F1CBA759296EF45600AA4BC7 /* SoundsBootcamp.swift in Sources */,
+				F1CBA751296EDD1100AA4BC7 /* UIApplication.swift in Sources */,
+				F10CD412297178AF006E76A3 /* GenericsBootcamp.swift in Sources */,
+				F1CBA757296EF15200AA4BC7 /* MaskBootcamp.swift in Sources */,
+				F1F55325297005F70053E660 /* ViewModifiersBootcamp.swift in Sources */,
+				F10CD40C297147A1006E76A3 /* CustomShapesBootcamp.swift in Sources */,
+				F1CBA748296EAE7200AA4BC7 /* RotationGestureBootcamp.swift in Sources */,
+				F1CBA746296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift in Sources */,
+				F1CBA762296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift in Sources */,
+				F1F55327297009560053E660 /* ButtonStyleBootcamp.swift in Sources */,
+				F10CD4102971633D006E76A3 /* AnimateableDataBootcamp.swift in Sources */,
+				F1CBA744296E9F0600AA4BC7 /* LongPressGestureBootcamp.swift in Sources */,
+				F1F55329297027900053E660 /* AnyTransitionBootcamp.swift in Sources */,
+				F1CBA755296EE35800AA4BC7 /* MultipleSheetsBootcamp.swift in Sources */,
+				F10CD40E29715DBA006E76A3 /* CustomCurvesBootcamp.swift in Sources */,
+				F1F5532B29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				F1CBA74C296EB72400AA4BC7 /* DragGestureBootcamp2.swift in Sources */,
+				F1CBA732296E9D2000AA4BC7 /* SwiftUILearningApp.swift in Sources */,
+				F1CBA753296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift in Sources */,
+				F1A38C72296FF7A900CEFC64 /* SubscriberBootcamp.swift in Sources */,
+				F1CBA760296EF84200AA4BC7 /* HapticsBootcamp.swift in Sources */,
+				F1CBA74A296EB10E00AA4BC7 /* DragGestureBootcamp.swift in Sources */,
+				F1CBA74E296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift in Sources */,
+				F1A38C70296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1CBA73A296E9D2200AA4BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1CBA73B296E9D2200AA4BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CBA73D296E9D2200AA4BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = U3QLWV6K6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.SwiftUILearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CBA73E296E9D2200AA4BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = U3QLWV6K6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.SwiftUILearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CBA729296E9D2000AA4BC7 /* Build configuration list for PBXProject "SwiftUILearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBA73A296E9D2200AA4BC7 /* Debug */,
+				F1CBA73B296E9D2200AA4BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CBA73C296E9D2200AA4BC7 /* Build configuration list for PBXNativeTarget "SwiftUILearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBA73D296E9D2200AA4BC7 /* Debug */,
+				F1CBA73E296E9D2200AA4BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CBA726296E9D2000AA4BC7 /* Project object */;
+}

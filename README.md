@@ -2,9 +2,14 @@
 
 Followed this awesome youtube channel: https://www.youtube.com/@SwiftfulThinking
 
-Swift & SwiftUI Topics covered so far: Week 9 - 13 (Jan 2023)
+Swift & SwiftUI Topics covered so far:
+<hr>
+<ul>
+<h1>Week 16 - 20 (Jan 2023)</h1>
+</ul>
 
 <ul>
+<h1>Week 9 - 13 (Jan 2023)</h1>
 <li>Long Press Gesture</li>
 <li>Magnification Gesture</li>
 <li>Rotation Gesture</li>

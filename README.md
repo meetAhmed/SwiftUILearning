@@ -2,7 +2,7 @@
 
 Followed this awesome youtube channel: https://www.youtube.com/@SwiftfulThinking
 
-Swift & SwiftUI Topics covered so far:
+Swift & SwiftUI Topics covered so far: Week 9 - 13 (Jan 2023)
 
 <ul>
 <li>Long Press Gesture</li>

@@ -15,6 +15,8 @@
 		F1A38C6C296FE47200CEFC64 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */; };
 		F1A38C70296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */; };
 		F1A38C72296FF7A900CEFC64 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */; };
+		F1AC3BA5297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC3BA4297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift */; };
+		F1AC3BA729758525004CCAB8 /* DownloadImageAsyncBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC3BA629758525004CCAB8 /* DownloadImageAsyncBootcamp.swift */; };
 		F1CBA732296E9D2000AA4BC7 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */; };
 		F1CBA736296E9D2200AA4BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA735296E9D2200AA4BC7 /* Assets.xcassets */; };
 		F1CBA739296E9D2200AA4BC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA738296E9D2200AA4BC7 /* Preview Assets.xcassets */; };
@@ -33,6 +35,11 @@
 		F1CBA75E296EF6C200AA4BC7 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1CBA75C296EF6C200AA4BC7 /* tada.mp3 */; };
 		F1CBA760296EF84200AA4BC7 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA75F296EF84200AA4BC7 /* HapticsBootcamp.swift */; };
 		F1CBA762296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA761296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift */; };
+		F1F4BADD29768B0200C28BC8 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4BADC29768B0200C28BC8 /* AsyncAwaitBootcamp.swift */; };
+		F1F4BADF2976913900C28BC8 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4BADE2976913900C28BC8 /* TaskBootcamp.swift */; };
+		F1F4BAE12976993A00C28BC8 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4BAE02976993A00C28BC8 /* AsyncLetBootcamp.swift */; };
+		F1F4BAE32976CE5B00C28BC8 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4BAE22976CE5B00C28BC8 /* TaskGroupBootcamp.swift */; };
+		F1F4BAE52976DFCD00C28BC8 /* CheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4BAE42976DFCD00C28BC8 /* CheckedContinuationBootcamp.swift */; };
 		F1F55325297005F70053E660 /* ViewModifiersBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55324297005F70053E660 /* ViewModifiersBootcamp.swift */; };
 		F1F55327297009560053E660 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55326297009560053E660 /* ButtonStyleBootcamp.swift */; };
 		F1F55329297027900053E660 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F55328297027900053E660 /* AnyTransitionBootcamp.swift */; };
@@ -48,6 +55,8 @@
 		F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsBootcamp.swift; sourceTree = "<group>"; };
 		F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		F1AC3BA4297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		F1AC3BA629758525004CCAB8 /* DownloadImageAsyncBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncBootcamp.swift; sourceTree = "<group>"; };
 		F1CBA72E296E9D2000AA4BC7 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		F1CBA735296E9D2200AA4BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +76,11 @@
 		F1CBA75C296EF6C200AA4BC7 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		F1CBA75F296EF84200AA4BC7 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		F1CBA761296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		F1F4BADC29768B0200C28BC8 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		F1F4BADE2976913900C28BC8 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		F1F4BAE02976993A00C28BC8 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
+		F1F4BAE22976CE5B00C28BC8 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
+		F1F4BAE42976DFCD00C28BC8 /* CheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
 		F1F55324297005F70053E660 /* ViewModifiersBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersBootcamp.swift; sourceTree = "<group>"; };
 		F1F55326297009560053E660 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		F1F55328297027900053E660 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
@@ -156,6 +170,13 @@
 				F10CD40F2971633D006E76A3 /* AnimateableDataBootcamp.swift */,
 				F10CD411297178AF006E76A3 /* GenericsBootcamp.swift */,
 				F10CD41329718216006E76A3 /* ViewBuilderBootcamp.swift */,
+				F1AC3BA4297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift */,
+				F1AC3BA629758525004CCAB8 /* DownloadImageAsyncBootcamp.swift */,
+				F1F4BADC29768B0200C28BC8 /* AsyncAwaitBootcamp.swift */,
+				F1F4BADE2976913900C28BC8 /* TaskBootcamp.swift */,
+				F1F4BAE02976993A00C28BC8 /* AsyncLetBootcamp.swift */,
+				F1F4BAE22976CE5B00C28BC8 /* TaskGroupBootcamp.swift */,
+				F1F4BAE42976DFCD00C28BC8 /* CheckedContinuationBootcamp.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -257,9 +278,13 @@
 				F10CD412297178AF006E76A3 /* GenericsBootcamp.swift in Sources */,
 				F1CBA757296EF15200AA4BC7 /* MaskBootcamp.swift in Sources */,
 				F1F55325297005F70053E660 /* ViewModifiersBootcamp.swift in Sources */,
+				F1F4BAE32976CE5B00C28BC8 /* TaskGroupBootcamp.swift in Sources */,
 				F10CD40C297147A1006E76A3 /* CustomShapesBootcamp.swift in Sources */,
+				F1F4BADD29768B0200C28BC8 /* AsyncAwaitBootcamp.swift in Sources */,
 				F1CBA748296EAE7200AA4BC7 /* RotationGestureBootcamp.swift in Sources */,
 				F1CBA746296EA94800AA4BC7 /* MagnificationGestureBootcamp.swift in Sources */,
+				F1AC3BA729758525004CCAB8 /* DownloadImageAsyncBootcamp.swift in Sources */,
+				F1F4BAE12976993A00C28BC8 /* AsyncLetBootcamp.swift in Sources */,
 				F1CBA762296EFAFD00AA4BC7 /* LocalNotificationBootcamp.swift in Sources */,
 				F1F55327297009560053E660 /* ButtonStyleBootcamp.swift in Sources */,
 				F10CD4102971633D006E76A3 /* AnimateableDataBootcamp.swift in Sources */,
@@ -269,11 +294,14 @@
 				F10CD40E29715DBA006E76A3 /* CustomCurvesBootcamp.swift in Sources */,
 				F1F5532B29703DDF0053E660 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				F1CBA74C296EB72400AA4BC7 /* DragGestureBootcamp2.swift in Sources */,
+				F1F4BADF2976913900C28BC8 /* TaskBootcamp.swift in Sources */,
 				F1CBA732296E9D2000AA4BC7 /* SwiftUILearningApp.swift in Sources */,
 				F1CBA753296EDF7500AA4BC7 /* GeometryReaderBootcamp.swift in Sources */,
+				F1AC3BA5297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				F1A38C72296FF7A900CEFC64 /* SubscriberBootcamp.swift in Sources */,
 				F1CBA760296EF84200AA4BC7 /* HapticsBootcamp.swift in Sources */,
 				F1CBA74A296EB10E00AA4BC7 /* DragGestureBootcamp.swift in Sources */,
+				F1F4BAE52976DFCD00C28BC8 /* CheckedContinuationBootcamp.swift in Sources */,
 				F1CBA74E296ED80500AA4BC7 /* ScrollViewReaderBootcamp.swift in Sources */,
 				F1A38C70296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift in Sources */,
 			);

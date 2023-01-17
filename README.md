@@ -6,6 +6,12 @@ Swift & SwiftUI Topics covered so far:
 <hr>
 <ul>
 <h1>Week 16 - 20 (Jan 2023)</h1>
+<li>Do Catch Try Throw Bootcamp</li>
+<li>Downloading Image Async (Async Await)</li>
+<li>Task</li>
+<li>Async Let</li>
+<li>Task Group</li>
+<li>Checked Continuation</li>
 </ul>
 
 <ul>

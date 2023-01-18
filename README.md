@@ -12,6 +12,10 @@ Swift & SwiftUI Topics covered so far:
 <li>Async Let</li>
 <li>Task Group</li>
 <li>Checked Continuation</li>
+<li>Struct Vs Class Vs Actor</li>
+<li>Actors</li>
+<li>Global Actor</li>
+<li>Async Publisher</li>
 </ul>
 
 <ul>

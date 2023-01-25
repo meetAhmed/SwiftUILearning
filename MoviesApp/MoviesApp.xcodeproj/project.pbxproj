@@ -7,184 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1A320FE2981105600A21D22 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A320FD2981105600A21D22 /* SegmentedControl.swift */; };
-		F1A321002981131E00A21D22 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A320FF2981131E00A21D22 /* ForecastModel.swift */; };
-		F1A321022981177500A21D22 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A321012981177500A21D22 /* ForecastCard.swift */; };
-		F1D871E929801133006288EE /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D871E829801133006288EE /* WeatherApp.swift */; };
-		F1D8726F29801251006288EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D8726E29801251006288EE /* Assets.xcassets */; };
-		F1D8727F2980152D006288EE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8727E2980152D006288EE /* Color.swift */; };
-		F1D87281298017B1006288EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D87280298017B1006288EE /* HomeView.swift */; };
-		F1D8728329801BF9006288EE /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8728229801BF9006288EE /* TabBar.swift */; };
-		F1D8728529801E22006288EE /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8728429801E22006288EE /* Shapes.swift */; };
-		F1D87288298020EA006288EE /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = F1D87287298020EA006288EE /* BottomSheet */; };
-		F1D8728A29802249006288EE /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8728929802249006288EE /* ForecastView.swift */; };
-		F1D8728C29802551006288EE /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8728B29802551006288EE /* Blur.swift */; };
+		F1AD182429813A5A00B5A0A7 /* MoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */; };
+		F1AD182829813A5C00B5A0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AD182729813A5C00B5A0A7 /* Assets.xcassets */; };
+		F1AD182B29813A5C00B5A0A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AD182A29813A5C00B5A0A7 /* Preview Assets.xcassets */; };
+		F1AD183829813AC500B5A0A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD183729813AC500B5A0A7 /* HomeView.swift */; };
+		F1AD183A2981444F00B5A0A7 /* MoviesNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD18392981444F00B5A0A7 /* MoviesNetworkingService.swift */; };
+		F1AD183C2981462100B5A0A7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD183B2981462100B5A0A7 /* Endpoint.swift */; };
+		F1AD183E298147A100B5A0A7 /* DefaultURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD183D298147A100B5A0A7 /* DefaultURLBuilder.swift */; };
+		F1AD184029814F4B00B5A0A7 /* APIConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD183F29814F4B00B5A0A7 /* APIConstructor.swift */; };
+		F1C0C43D2981585A00AD856B /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0C43C2981585A00AD856B /* Genre.swift */; };
+		F1C0C43F298158AA00AD856B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0C43E298158AA00AD856B /* HomeViewModel.swift */; };
+		F1C0C44129815F0E00AD856B /* GenreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0C44029815F0E00AD856B /* GenreCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F1A320FD2981105600A21D22 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
-		F1A320FF2981131E00A21D22 /* ForecastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
-		F1A321012981177500A21D22 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
-		F1D871E529801133006288EE /* WeatherAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1D871E829801133006288EE /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
-		F1D8726E29801251006288EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1D8727E2980152D006288EE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		F1D87280298017B1006288EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		F1D8728229801BF9006288EE /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		F1D8728429801E22006288EE /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
-		F1D8728929802249006288EE /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
-		F1D8728B29802551006288EE /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		F1AD182029813A5A00B5A0A7 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesApp.swift; sourceTree = "<group>"; };
+		F1AD182729813A5C00B5A0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1AD182A29813A5C00B5A0A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1AD183729813AC500B5A0A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F1AD18392981444F00B5A0A7 /* MoviesNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesNetworkingService.swift; sourceTree = "<group>"; };
+		F1AD183B2981462100B5A0A7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F1AD183D298147A100B5A0A7 /* DefaultURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultURLBuilder.swift; sourceTree = "<group>"; };
+		F1AD183F29814F4B00B5A0A7 /* APIConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstructor.swift; sourceTree = "<group>"; };
+		F1C0C43C2981585A00AD856B /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		F1C0C43E298158AA00AD856B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F1C0C44029815F0E00AD856B /* GenreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1D871E229801133006288EE /* Frameworks */ = {
+		F1AD181D29813A5A00B5A0A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D87288298020EA006288EE /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1D871DC29801133006288EE = {
+		F1AD181729813A5A00B5A0A7 = {
 			isa = PBXGroup;
 			children = (
-				F1D871E729801133006288EE /* WeatherAppUI */,
-				F1D871E629801133006288EE /* Products */,
+				F1AD182229813A5A00B5A0A7 /* MoviesApp */,
+				F1AD182129813A5A00B5A0A7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1D871E629801133006288EE /* Products */ = {
+		F1AD182129813A5A00B5A0A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1D871E529801133006288EE /* WeatherAppUI.app */,
+				F1AD182029813A5A00B5A0A7 /* MoviesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1D871E729801133006288EE /* WeatherAppUI */ = {
+		F1AD182229813A5A00B5A0A7 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1D872792980136A006288EE /* View */,
-				F1D87271298012ED006288EE /* Model */,
-				F1D87272298012F8006288EE /* Utils */,
-				F1D8727829801341006288EE /* Supporting Files */,
+				F1AD183229813A8C00B5A0A7 /* View */,
+				F1C0C43B2981584A00AD856B /* ViewModel */,
+				F1AD183529813A9F00B5A0A7 /* Model */,
+				F1AD183629813AA600B5A0A7 /* Networking */,
+				F1AD183129813A7300B5A0A7 /* Supporting Files */,
 			);
-			path = WeatherAppUI;
+			path = MoviesApp;
 			sourceTree = "<group>";
 		};
-		F1D87271298012ED006288EE /* Model */ = {
+		F1AD182929813A5C00B5A0A7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F1A320FF2981131E00A21D22 /* ForecastModel.swift */,
+				F1AD182A29813A5C00B5A0A7 /* Preview Assets.xcassets */,
 			);
-			path = Model;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F1D87272298012F8006288EE /* Utils */ = {
+		F1AD183129813A7300B5A0A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1D8727E2980152D006288EE /* Color.swift */,
-				F1D8728429801E22006288EE /* Shapes.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		F1D8727829801341006288EE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1D871E829801133006288EE /* WeatherApp.swift */,
-				F1D8726E29801251006288EE /* Assets.xcassets */,
+				F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */,
+				F1AD182729813A5C00B5A0A7 /* Assets.xcassets */,
+				F1AD182929813A5C00B5A0A7 /* Preview Content */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F1D872792980136A006288EE /* View */ = {
+		F1AD183229813A8C00B5A0A7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F1D8727A29801372006288EE /* Main */,
-				F1D8727C298013A3006288EE /* Navigation */,
-				F1D8727D298013A9006288EE /* Details */,
-				F1D8727B29801377006288EE /* Components */,
+				F1AD183429813A9900B5A0A7 /* Home */,
+				F1AD183329813A9200B5A0A7 /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F1D8727A29801372006288EE /* Main */ = {
+		F1AD183329813A9200B5A0A7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				F1D87280298017B1006288EE /* HomeView.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		F1D8727B29801377006288EE /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				F1D8728B29802551006288EE /* Blur.swift */,
-				F1A320FD2981105600A21D22 /* SegmentedControl.swift */,
-				F1A321012981177500A21D22 /* ForecastCard.swift */,
+				F1C0C44029815F0E00AD856B /* GenreCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F1D8727C298013A3006288EE /* Navigation */ = {
+		F1AD183429813A9900B5A0A7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F1D8728229801BF9006288EE /* TabBar.swift */,
+				F1AD183729813AC500B5A0A7 /* HomeView.swift */,
 			);
-			path = Navigation;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		F1D8727D298013A9006288EE /* Details */ = {
+		F1AD183529813A9F00B5A0A7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F1D8728929802249006288EE /* ForecastView.swift */,
+				F1C0C43C2981585A00AD856B /* Genre.swift */,
 			);
-			path = Details;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1AD183629813AA600B5A0A7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD18392981444F00B5A0A7 /* MoviesNetworkingService.swift */,
+				F1AD183D298147A100B5A0A7 /* DefaultURLBuilder.swift */,
+				F1AD183F29814F4B00B5A0A7 /* APIConstructor.swift */,
+				F1AD183B2981462100B5A0A7 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F1C0C43B2981584A00AD856B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1C0C43E298158AA00AD856B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1D871E429801133006288EE /* WeatherAppUI */ = {
+		F1AD181F29813A5A00B5A0A7 /* MoviesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1D871F329801137006288EE /* Build configuration list for PBXNativeTarget "WeatherAppUI" */;
+			buildConfigurationList = F1AD182E29813A5C00B5A0A7 /* Build configuration list for PBXNativeTarget "MoviesApp" */;
 			buildPhases = (
-				F1D871E129801133006288EE /* Sources */,
-				F1D871E229801133006288EE /* Frameworks */,
-				F1D871E329801133006288EE /* Resources */,
+				F1AD181C29813A5A00B5A0A7 /* Sources */,
+				F1AD181D29813A5A00B5A0A7 /* Frameworks */,
+				F1AD181E29813A5A00B5A0A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeatherAppUI;
-			packageProductDependencies = (
-				F1D87287298020EA006288EE /* BottomSheet */,
-			);
-			productName = WeatherAppUI;
-			productReference = F1D871E529801133006288EE /* WeatherAppUI.app */;
+			name = MoviesApp;
+			productName = MoviesApp;
+			productReference = F1AD182029813A5A00B5A0A7 /* MoviesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1D871DD29801133006288EE /* Project object */ = {
+		F1AD181829813A5A00B5A0A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					F1D871E429801133006288EE = {
+					F1AD181F29813A5A00B5A0A7 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = F1D871E029801133006288EE /* Build configuration list for PBXProject "WeatherAppUI" */;
+			buildConfigurationList = F1AD181B29813A5A00B5A0A7 /* Build configuration list for PBXProject "MoviesApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,52 +187,49 @@
 				en,
 				Base,
 			);
-			mainGroup = F1D871DC29801133006288EE;
-			packageReferences = (
-				F1D87286298020EA006288EE /* XCRemoteSwiftPackageReference "BottomSheet" */,
-			);
-			productRefGroup = F1D871E629801133006288EE /* Products */;
+			mainGroup = F1AD181729813A5A00B5A0A7;
+			productRefGroup = F1AD182129813A5A00B5A0A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1D871E429801133006288EE /* WeatherAppUI */,
+				F1AD181F29813A5A00B5A0A7 /* MoviesApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1D871E329801133006288EE /* Resources */ = {
+		F1AD181E29813A5A00B5A0A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D8726F29801251006288EE /* Assets.xcassets in Resources */,
+				F1AD182B29813A5C00B5A0A7 /* Preview Assets.xcassets in Resources */,
+				F1AD182829813A5C00B5A0A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1D871E129801133006288EE /* Sources */ = {
+		F1AD181C29813A5A00B5A0A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D87281298017B1006288EE /* HomeView.swift in Sources */,
-				F1D871E929801133006288EE /* WeatherApp.swift in Sources */,
-				F1A321022981177500A21D22 /* ForecastCard.swift in Sources */,
-				F1D8728529801E22006288EE /* Shapes.swift in Sources */,
-				F1D8727F2980152D006288EE /* Color.swift in Sources */,
-				F1A321002981131E00A21D22 /* ForecastModel.swift in Sources */,
-				F1D8728C29802551006288EE /* Blur.swift in Sources */,
-				F1D8728329801BF9006288EE /* TabBar.swift in Sources */,
-				F1A320FE2981105600A21D22 /* SegmentedControl.swift in Sources */,
-				F1D8728A29802249006288EE /* ForecastView.swift in Sources */,
+				F1AD183E298147A100B5A0A7 /* DefaultURLBuilder.swift in Sources */,
+				F1C0C43D2981585A00AD856B /* Genre.swift in Sources */,
+				F1AD183829813AC500B5A0A7 /* HomeView.swift in Sources */,
+				F1C0C43F298158AA00AD856B /* HomeViewModel.swift in Sources */,
+				F1C0C44129815F0E00AD856B /* GenreCard.swift in Sources */,
+				F1AD183A2981444F00B5A0A7 /* MoviesNetworkingService.swift in Sources */,
+				F1AD184029814F4B00B5A0A7 /* APIConstructor.swift in Sources */,
+				F1AD183C2981462100B5A0A7 /* Endpoint.swift in Sources */,
+				F1AD182429813A5A00B5A0A7 /* MoviesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F1D871F129801137006288EE /* Debug */ = {
+		F1AD182C29813A5C00B5A0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		F1D871F229801137006288EE /* Release */ = {
+		F1AD182D29813A5C00B5A0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,13 +343,14 @@
 			};
 			name = Release;
 		};
-		F1D871F429801137006288EE /* Debug */ = {
+		F1AD182F29813A5C00B5A0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoviesApp/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = U3QLWV6K6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -372,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aali.WeatherAppUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.MoviesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,13 +373,14 @@
 			};
 			name = Debug;
 		};
-		F1D871F529801137006288EE /* Release */ = {
+		F1AD183029813A5C00B5A0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoviesApp/Supporting Files/Preview Content\"";
 				DEVELOPMENT_TEAM = U3QLWV6K6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -401,7 +395,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aali.WeatherAppUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aali.MoviesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,44 +406,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1D871E029801133006288EE /* Build configuration list for PBXProject "WeatherAppUI" */ = {
+		F1AD181B29813A5A00B5A0A7 /* Build configuration list for PBXProject "MoviesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1D871F129801137006288EE /* Debug */,
-				F1D871F229801137006288EE /* Release */,
+				F1AD182C29813A5C00B5A0A7 /* Debug */,
+				F1AD182D29813A5C00B5A0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1D871F329801137006288EE /* Build configuration list for PBXNativeTarget "WeatherAppUI" */ = {
+		F1AD182E29813A5C00B5A0A7 /* Build configuration list for PBXNativeTarget "MoviesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1D871F429801137006288EE /* Debug */,
-				F1D871F529801137006288EE /* Release */,
+				F1AD182F29813A5C00B5A0A7 /* Debug */,
+				F1AD183029813A5C00B5A0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F1D87286298020EA006288EE /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Wouter125/BottomSheet";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F1D87287298020EA006288EE /* BottomSheet */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F1D87286298020EA006288EE /* XCRemoteSwiftPackageReference "BottomSheet" */;
-			productName = BottomSheet;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F1D871DD29801133006288EE /* Project object */;
+	rootObject = F1AD181829813A5A00B5A0A7 /* Project object */;
 }

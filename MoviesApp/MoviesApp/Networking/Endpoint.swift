@@ -8,6 +8,7 @@
 import Foundation
 
 enum Endpoint {
+    case trending
     case discoverMovies
     case genres
 }
@@ -15,6 +16,10 @@ enum Endpoint {
 extension Endpoint {
     var fullPath: String {
         base + path
+    }
+    
+    static var imageBaseUrl: String {
+        "https://image.tmdb.org/t/p/original"
     }
 }
 
@@ -25,6 +30,8 @@ private extension Endpoint {
     
     var path: String {
         switch self {
+        case .trending:
+            return "/3/trending/movie/week"
         case .discoverMovies:
             return "/3/discover/movie"
         case .genres:

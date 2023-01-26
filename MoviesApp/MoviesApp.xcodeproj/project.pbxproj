@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F144E623298269910019304C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E622298269910019304C /* Movie.swift */; };
+		F144E62529826B380019304C /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62429826B380019304C /* MovieCard.swift */; };
+		F144E62829826C070019304C /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62729826C070019304C /* PreviewProvider.swift */; };
+		F144E62A29826E770019304C /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62929826E770019304C /* Optional.swift */; };
+		F144E62C298276240019304C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F144E62B298276240019304C /* Colors.xcassets */; };
+		F144E62E298276490019304C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62D298276490019304C /* Color.swift */; };
+		F144E67229829BD70019304C /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F144E64E298298FB0019304C /* Poppins-Black.ttf */; };
+		F144E67329829BD70019304C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F144E64D298298FA0019304C /* Poppins-Bold.ttf */; };
+		F144E67429829BD70019304C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F144E653298298FE0019304C /* Poppins-Light.ttf */; };
+		F144E67529829BD70019304C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F144E654298298FF0019304C /* Poppins-Medium.ttf */; };
+		F144E67B2982AB650019304C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E67A2982AB650019304C /* SearchBar.swift */; };
+		F144E67D2982AD530019304C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E67C2982AD530019304C /* View.swift */; };
+		F144E67F2982AD5D0019304C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E67E2982AD5D0019304C /* UIApplication.swift */; };
 		F1AD182429813A5A00B5A0A7 /* MoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */; };
 		F1AD182829813A5C00B5A0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AD182729813A5C00B5A0A7 /* Assets.xcassets */; };
 		F1AD182B29813A5C00B5A0A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AD182A29813A5C00B5A0A7 /* Preview Assets.xcassets */; };
@@ -21,6 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F144E622298269910019304C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F144E62429826B380019304C /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
+		F144E62729826C070019304C /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		F144E62929826E770019304C /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		F144E62B298276240019304C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F144E62D298276490019304C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F144E64D298298FA0019304C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F144E64E298298FB0019304C /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F144E653298298FE0019304C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F144E654298298FF0019304C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F144E67129829BBA0019304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F144E67A2982AB650019304C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F144E67C2982AD530019304C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F144E67E2982AD5D0019304C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F1AD182029813A5A00B5A0A7 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesApp.swift; sourceTree = "<group>"; };
 		F1AD182729813A5C00B5A0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +73,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F144E62629826BCB0019304C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F144E62729826C070019304C /* PreviewProvider.swift */,
+				F144E62929826E770019304C /* Optional.swift */,
+				F144E62D298276490019304C /* Color.swift */,
+				F144E67C2982AD530019304C /* View.swift */,
+				F144E67E2982AD5D0019304C /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F144E647298298C60019304C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F144E64E298298FB0019304C /* Poppins-Black.ttf */,
+				F144E64D298298FA0019304C /* Poppins-Bold.ttf */,
+				F144E653298298FE0019304C /* Poppins-Light.ttf */,
+				F144E654298298FF0019304C /* Poppins-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F1AD181729813A5A00B5A0A7 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +115,9 @@
 		F1AD182229813A5A00B5A0A7 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
+				F144E67129829BBA0019304C /* Info.plist */,
+				F144E647298298C60019304C /* Fonts */,
+				F144E62629826BCB0019304C /* Extensions */,
 				F1AD183229813A8C00B5A0A7 /* View */,
 				F1C0C43B2981584A00AD856B /* ViewModel */,
 				F1AD183529813A9F00B5A0A7 /* Model */,
@@ -87,6 +140,7 @@
 			children = (
 				F1AD182329813A5A00B5A0A7 /* MoviesApp.swift */,
 				F1AD182729813A5C00B5A0A7 /* Assets.xcassets */,
+				F144E62B298276240019304C /* Colors.xcassets */,
 				F1AD182929813A5C00B5A0A7 /* Preview Content */,
 			);
 			path = "Supporting Files";
@@ -105,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				F1C0C44029815F0E00AD856B /* GenreCard.swift */,
+				F144E62429826B380019304C /* MovieCard.swift */,
+				F144E67A2982AB650019304C /* SearchBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -121,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				F1C0C43C2981585A00AD856B /* Genre.swift */,
+				F144E622298269910019304C /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F144E67229829BD70019304C /* Poppins-Black.ttf in Resources */,
+				F144E67329829BD70019304C /* Poppins-Bold.ttf in Resources */,
+				F144E67429829BD70019304C /* Poppins-Light.ttf in Resources */,
+				F144E67529829BD70019304C /* Poppins-Medium.ttf in Resources */,
+				F144E62C298276240019304C /* Colors.xcassets in Resources */,
 				F1AD182B29813A5C00B5A0A7 /* Preview Assets.xcassets in Resources */,
 				F1AD182829813A5C00B5A0A7 /* Assets.xcassets in Resources */,
 			);
@@ -214,11 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F144E67F2982AD5D0019304C /* UIApplication.swift in Sources */,
+				F144E62529826B380019304C /* MovieCard.swift in Sources */,
+				F144E62829826C070019304C /* PreviewProvider.swift in Sources */,
 				F1AD183E298147A100B5A0A7 /* DefaultURLBuilder.swift in Sources */,
+				F144E67D2982AD530019304C /* View.swift in Sources */,
+				F144E62A29826E770019304C /* Optional.swift in Sources */,
+				F144E67B2982AB650019304C /* SearchBar.swift in Sources */,
 				F1C0C43D2981585A00AD856B /* Genre.swift in Sources */,
 				F1AD183829813AC500B5A0A7 /* HomeView.swift in Sources */,
 				F1C0C43F298158AA00AD856B /* HomeViewModel.swift in Sources */,
+				F144E623298269910019304C /* Movie.swift in Sources */,
 				F1C0C44129815F0E00AD856B /* GenreCard.swift in Sources */,
+				F144E62E298276490019304C /* Color.swift in Sources */,
 				F1AD183A2981444F00B5A0A7 /* MoviesNetworkingService.swift in Sources */,
 				F1AD184029814F4B00B5A0A7 /* APIConstructor.swift in Sources */,
 				F1AD183C2981462100B5A0A7 /* Endpoint.swift in Sources */,
@@ -354,6 +424,7 @@
 				DEVELOPMENT_TEAM = U3QLWV6K6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -384,6 +455,7 @@
 				DEVELOPMENT_TEAM = U3QLWV6K6Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

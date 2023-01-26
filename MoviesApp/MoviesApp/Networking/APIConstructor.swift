@@ -11,5 +11,5 @@ typealias Parameters = [String: String]
 
 struct APIConstructor {
     let endpoint: Endpoint
-    let queryParams: Parameters = [:]
+    var queryParams: Parameters = [:]
 }

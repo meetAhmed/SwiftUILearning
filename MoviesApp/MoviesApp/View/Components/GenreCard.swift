@@ -15,7 +15,7 @@ struct GenreCard: View {
     var body: some View {
         VStack {
             Text(genre.name)
-                .font(.headline)
+                .poppins(.light, 14)
         }
         .padding()
         .background(
@@ -37,8 +37,6 @@ struct GenreCard: View {
 
 struct GenreCard_Previews: PreviewProvider {
     static var previews: some View {
-        let genre = Genre(id: 1, name: "Action")
-        let namespace = Namespace()
-        GenreCard(genre: genre, selected: .constant(genre), namespace: namespace.wrappedValue)
+        GenreCard(genre: dev.genre, selected: .constant(dev.genre), namespace: dev.namespace)
     }
 }

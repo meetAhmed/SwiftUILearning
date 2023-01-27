@@ -71,13 +71,14 @@ struct HomeView: View {
                     }
                 }
                 
-                // MARK: Tab Bar
-                TabBar {
-                    withAnimation(.easeInOut) {
-                        bottomSheetPosition = .top
-                    }
-                }
-                .offset(y: bottomSheetTranslationProrated * 150)
+//                // MARK: Tab Bar
+//                TabBar {
+//                    withAnimation(.easeInOut) {
+//                        bottomSheetPosition = .top
+//                    }
+//                }
+//                .offset(y: bottomSheetTranslationProrated * 150)
+//                .padding(.top, 15)
             }
             .navigationBarHidden(true)
         }

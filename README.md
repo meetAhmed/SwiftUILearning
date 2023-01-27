@@ -4,6 +4,13 @@ Followed this awesome youtube channel: https://www.youtube.com/@SwiftfulThinking
 
 Swift & SwiftUI Topics covered so far:
 <hr>
+
+<ul>
+<h1>Week 23 - 27 (Jan 2023)</h1>
+<li>Weather App UI Design.</li>
+<li>Movies App UI Design & API Implementation.</li>
+</ul>
+
 <ul>
 <h1>Week 16 - 20 (Jan 2023)</h1>
 <li>Do Catch Try Throw Bootcamp</li>
@@ -16,6 +23,8 @@ Swift & SwiftUI Topics covered so far:
 <li>Actors</li>
 <li>Global Actor</li>
 <li>Async Publisher</li>
+<li>Map Based App</li>
+<li>Task Management App</li>
 </ul>
 
 <ul>

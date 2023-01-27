@@ -21,7 +21,7 @@ struct ForecastView: View {
                         ForEach(selection == 0 ? Forecast.hourly : Forecast.weekly) {
                             ForecastCard(forecast: $0, forecastPeriod: selection == 0 ? .hourly : .weekly)
                         }
-                        .transition(.offset(x: selection == 0 ? -430 : 430))
+                        .transition(.offset(x: selection == 0 ? 430 : -430))
                     }
                     .padding(.vertical, 20)
                 }

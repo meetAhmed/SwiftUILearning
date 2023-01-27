@@ -49,7 +49,14 @@ struct Movie: Decodable, Identifiable {
 }
 
 extension Movie {
-    var imageFullPath: String {
-        Endpoint.imageBaseUrl + (posterPath == nil ? backdropPath.stringValue : posterPath.stringValue)
+    func imageFullPath(type: MovieImageType) -> String {
+        switch type {
+        case .poster:
+            return Endpoint.imageBaseUrl + (posterPath == nil ? backdropPath.stringValue : posterPath.stringValue)
+        case .backdrop:
+            return Endpoint.imageBaseUrl + (backdropPath == nil ? posterPath.stringValue : backdropPath.stringValue)
+        case .any:
+            return Endpoint.imageBaseUrl + (posterPath == nil ? backdropPath.stringValue : posterPath.stringValue)
+        }
     }
 }

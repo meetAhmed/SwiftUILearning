@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13D34762983D2B900B5866E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D34752983D2B900B5866E /* DetailView.swift */; };
+		F13D34782983E46600B5866E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D34772983E46600B5866E /* ImageView.swift */; };
+		F13D347A2983EE7200B5866E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D34792983EE7200B5866E /* Double.swift */; };
+		F13D347C2983F0B100B5866E /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D347B2983F0B100B5866E /* MovieSection.swift */; };
+		F13D347E2983F7A700B5866E /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D347D2983F7A700B5866E /* Review.swift */; };
+		F13D34802983FC6500B5866E /* ReviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D347F2983FC6500B5866E /* ReviewCard.swift */; };
+		F13D34822984030700B5866E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D34812984030700B5866E /* String.swift */; };
 		F144E623298269910019304C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E622298269910019304C /* Movie.swift */; };
 		F144E62529826B380019304C /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62429826B380019304C /* MovieCard.swift */; };
 		F144E62829826C070019304C /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144E62729826C070019304C /* PreviewProvider.swift */; };
@@ -34,6 +41,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13D34752983D2B900B5866E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F13D34772983E46600B5866E /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F13D34792983EE7200B5866E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F13D347B2983F0B100B5866E /* MovieSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
+		F13D347D2983F7A700B5866E /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		F13D347F2983FC6500B5866E /* ReviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCard.swift; sourceTree = "<group>"; };
+		F13D34812984030700B5866E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		F144E622298269910019304C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F144E62429826B380019304C /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
 		F144E62729826C070019304C /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -73,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F13D34742983D25E00B5866E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F13D34752983D2B900B5866E /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		F144E62629826BCB0019304C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				F144E62D298276490019304C /* Color.swift */,
 				F144E67C2982AD530019304C /* View.swift */,
 				F144E67E2982AD5D0019304C /* UIApplication.swift */,
+				F13D34792983EE7200B5866E /* Double.swift */,
+				F13D34812984030700B5866E /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -150,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				F1AD183429813A9900B5A0A7 /* Home */,
+				F13D34742983D25E00B5866E /* Detail */,
 				F1AD183329813A9200B5A0A7 /* Components */,
 			);
 			path = View;
@@ -161,6 +186,9 @@
 				F1C0C44029815F0E00AD856B /* GenreCard.swift */,
 				F144E62429826B380019304C /* MovieCard.swift */,
 				F144E67A2982AB650019304C /* SearchBar.swift */,
+				F13D34772983E46600B5866E /* ImageView.swift */,
+				F13D347B2983F0B100B5866E /* MovieSection.swift */,
+				F13D347F2983FC6500B5866E /* ReviewCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -178,6 +206,7 @@
 			children = (
 				F1C0C43C2981585A00AD856B /* Genre.swift */,
 				F144E622298269910019304C /* Movie.swift */,
+				F13D347D2983F7A700B5866E /* Review.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,9 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F144E67F2982AD5D0019304C /* UIApplication.swift in Sources */,
+				F13D34782983E46600B5866E /* ImageView.swift in Sources */,
+				F13D34762983D2B900B5866E /* DetailView.swift in Sources */,
 				F144E62529826B380019304C /* MovieCard.swift in Sources */,
 				F144E62829826C070019304C /* PreviewProvider.swift in Sources */,
 				F1AD183E298147A100B5A0A7 /* DefaultURLBuilder.swift in Sources */,
+				F13D34822984030700B5866E /* String.swift in Sources */,
 				F144E67D2982AD530019304C /* View.swift in Sources */,
 				F144E62A29826E770019304C /* Optional.swift in Sources */,
 				F144E67B2982AB650019304C /* SearchBar.swift in Sources */,
@@ -291,8 +323,12 @@
 				F144E62E298276490019304C /* Color.swift in Sources */,
 				F1AD183A2981444F00B5A0A7 /* MoviesNetworkingService.swift in Sources */,
 				F1AD184029814F4B00B5A0A7 /* APIConstructor.swift in Sources */,
+				F13D347E2983F7A700B5866E /* Review.swift in Sources */,
 				F1AD183C2981462100B5A0A7 /* Endpoint.swift in Sources */,
+				F13D347A2983EE7200B5866E /* Double.swift in Sources */,
 				F1AD182429813A5A00B5A0A7 /* MoviesApp.swift in Sources */,
+				F13D347C2983F0B100B5866E /* MovieSection.swift in Sources */,
+				F13D34802983FC6500B5866E /* ReviewCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +464,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,8 +495,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct MoviesApp: App {
+    @StateObject private var vm = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeView()
-            }
+            HomeView()
+                .environmentObject(vm)
         }
     }
 }

@@ -11,6 +11,9 @@ enum Endpoint {
     case trending
     case discoverMovies
     case genres
+    case search
+    case topRated
+    case reviews(_ movieId: Int)
 }
 
 extension Endpoint {
@@ -36,6 +39,12 @@ private extension Endpoint {
             return "/3/discover/movie"
         case .genres:
             return "/3/genre/movie/list"
+        case .search:
+            return "/3/search/movie"
+        case .topRated:
+            return "/3/movie/top_rated"
+        case .reviews(let movieId):
+            return "/3/movie/\(movieId)/reviews"
         }
     }
 }

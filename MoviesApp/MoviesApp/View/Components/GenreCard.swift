@@ -15,9 +15,9 @@ struct GenreCard: View {
     var body: some View {
         VStack {
             Text(genre.name)
-                .poppins(.light, 14)
+                .poppins(.medium, 14)
+                .padding()
         }
-        .padding()
         .background(
             ZStack {
                 if selected == genre {
@@ -27,6 +27,7 @@ struct GenreCard: View {
                 }
             }
         )
+        .padding(.vertical)
         .onTapGesture {
             withAnimation(.easeInOut) {
                 selected = genre
@@ -37,6 +38,7 @@ struct GenreCard: View {
 
 struct GenreCard_Previews: PreviewProvider {
     static var previews: some View {
-        GenreCard(genre: dev.genre, selected: .constant(dev.genre), namespace: dev.namespace)
+        let namespace = Namespace().wrappedValue
+        GenreCard(genre: dev.genre, selected: .constant(dev.genre), namespace: namespace)
     }
 }

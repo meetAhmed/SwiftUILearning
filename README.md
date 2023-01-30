@@ -7,6 +7,7 @@ Swift & SwiftUI Topics covered so far:
 
 <ul>
 <h1>Week 23 - 27 (Jan 2023)</h1>
+<li>Custom Tab View</li>
 <li>Weather App UI Design.</li>
 <li>Movies App UI Design & API Implementation.</li>
 </ul>

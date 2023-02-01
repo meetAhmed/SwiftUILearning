@@ -12,21 +12,14 @@ struct IntroView: View {
     
     var body: some View {
         ZStack {
-            RadialGradient(
-                colors: [.purple, .blue],
-                center: .topLeading,
-                startRadius: 5,
-                endRadius: UIScreen.main.bounds.height
-            )
-            .ignoresSafeArea()
-            
             if currentUserSignedIn {
-                Text("Profile View")
-                    .font(.largeTitle)
-                    .foregroundColor(.white)
+                HomeView()
             } else {
                 OnboardingView()
             }
+        }
+        .onAppear {
+            currentUserSignedIn = false
         }
     }
 }

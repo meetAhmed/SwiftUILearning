@@ -62,11 +62,13 @@ struct HomeView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(0..<10) { _ in
-                        CategoryCard()
+                        ProductCard()
                     }
                 }
                 .padding(.vertical)
             }
+            
+            SpecialOfferCard()
             
             Spacer()
         }

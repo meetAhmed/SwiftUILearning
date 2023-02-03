@@ -15,4 +15,8 @@ extension Color {
     static var searchBoxColor: Color {
         Color("SearchBoxColor")
     }
+    
+    static var detailPageBackground: Color {
+        Color("DetailPageBackground")
+    }
 }

@@ -8,42 +8,29 @@
 import SwiftUI
 
 struct ProductCard: View {
+    @EnvironmentObject var viewModel: HomeViewModel
+    let product: Product
+    
     var body: some View {
         VStack(alignment: .leading) {
             ZStack(alignment: .topTrailing) {
-                Image("CoffeeBackground")
+                Image(product.image)
                     .resizable()
                     .scaledToFill()
                     .frame(width: cardImageWidth, height: cardImageHeight)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 
-                HStack {
-                    Image(systemName: "star.fill")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 10, height: 10)
-                    
-                    Text("4.9")
-                }
-                .padding(.all, 6)
-                .background(
-                    RoundedRectangle(cornerRadius: 10)
-                        .fill(Color.darkBrownColor)
-                )
-                .frame(height: 20)
-                .font(.caption2)
-                .foregroundColor(.white)
-                .padding(.all, 10)
+                RatingView(product: product)
             }
             
-            Text("Cappuccino")
+            Text(product.title)
                 .font(.headline)
             
-            Text("With Chocolate")
+            Text(product.subTitle)
                 .font(.caption)
             
             HStack {
-                Text("$12.5")
+                Text(product.price.small)
                     .font(.subheadline)
                     .fontWeight(.semibold)
                 
@@ -72,12 +59,15 @@ struct ProductCard: View {
         )
         .shadow(color: .gray.opacity(0.15), radius: 7, x: 2, y: 1)
         .padding(.horizontal, 5)
+        .onTapGesture {
+            viewModel.selectedProduct = product
+        }
     }
 }
 
 struct CategoryCard_Previews: PreviewProvider {
     static var previews: some View {
-        ProductCard()
+        ProductCard(product: DataService.instance.data[1])
     }
 }
 

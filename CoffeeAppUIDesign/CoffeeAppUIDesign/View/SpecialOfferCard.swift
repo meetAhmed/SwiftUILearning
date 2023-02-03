@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct SpecialOfferCard: View {
+    @EnvironmentObject var viewModel: HomeViewModel
+    let product: Product
+    
     var body: some View {
         HStack(alignment: .top) {
             ZStack(alignment: .topTrailing) {
-                Image("CoffeeBackground")
+                Image(product.image)
                     .resizable()
                     .scaledToFill()
                     .frame(width: cardImageWidth, height: cardImageHeight)
@@ -61,12 +64,15 @@ struct SpecialOfferCard: View {
                 .fill(.white)
         )
         .shadow(color: .gray.opacity(0.15), radius: 7, x: 2, y: 1)
+        .onTapGesture {
+            viewModel.selectedProduct = product
+        }
     }
 }
 
 struct SpecialOfferCard_Previews: PreviewProvider {
     static var previews: some View {
-        SpecialOfferCard()
+        SpecialOfferCard(product: DataService.instance.limitedTimeOffer)
     }
 }
 

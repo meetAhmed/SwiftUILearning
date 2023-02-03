@@ -96,12 +96,12 @@ private extension OnboardingView {
         VStack(spacing: 25) {
             Spacer()
             
-            Text("Good coffee,\nGood friends,\nlet it blends.")
+            Text("Good coffee,\nGood friends,\nLet it blends.")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             
-            Text("The best grain, the finest roast, the most powerful flavor.")
+            Text("Never Underestimate the Importance of Being Properly Caffeinated.")
                 .foregroundColor(.white)
                 .frame(width: UIScreen.main.bounds.width * 0.7)
         }
@@ -112,12 +112,12 @@ private extension OnboardingView {
         VStack(spacing: 25) {
             Spacer()
             
-            Text("Second Title")
+            Text("Restaurant & Coffee.")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             
-            Text("Second Description.")
+            Text("Judge a restaurant by the bread and by the coffee.")
                 .foregroundColor(.white)
                 .frame(width: UIScreen.main.bounds.width * 0.7)
         }
@@ -128,12 +128,12 @@ private extension OnboardingView {
         VStack(spacing: 25) {
             Spacer()
             
-            Text("Third title.")
+            Text("Coffee With Friends!")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             
-            Text("Third Description.")
+            Text("Friends bring happiness into your life. Best friends bring coffee.")
                 .foregroundColor(.white)
                 .frame(width: UIScreen.main.bounds.width * 0.7)
         }

@@ -8,8 +8,8 @@ Swift & SwiftUI Topics covered so far:
 <ul>
 <h1>Week 23 - 27 (Jan 2023)</h1>
 <li>Custom Tab View</li>
-<li>Weather App UI Design.</li>
-<li>Movies App UI Design & API Implementation.</li>
+<li><a href="https://github.com/meetAhmed/SwiftUILearning/tree/main/WeatherAppUI">Weather App UI Design (Repo link)</a></li>
+<li><a href="https://github.com/meetAhmed/Movies-App-IMDB-API-Async-Await-Actor-SwiftUI">Movies App UI Design & API Implementation</a></li>
 </ul>
 
 <ul>
@@ -24,8 +24,8 @@ Swift & SwiftUI Topics covered so far:
 <li>Actors</li>
 <li>Global Actor</li>
 <li>Async Publisher</li>
-<li>Map Based App</li>
-<li>Task Management App</li>
+<li><a href="https://github.com/meetAhmed/Map-App-Design-SwiftUI">Map Based App (Repo link)</a></li>
+<li><a href="https://github.com/meetAhmed/SwiftUILearning/tree/main/TaskManagementUI">Task Management App (Repo link)</a></li>
 </ul>
 
 <ul>

@@ -21,6 +21,7 @@
 		F1A38C6C296FE47200CEFC64 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */; };
 		F1A38C70296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */; };
 		F1A38C72296FF7A900CEFC64 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */; };
+		F1ABBCDC299E0C8B009AFB16 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABBCDB299E0C8B009AFB16 /* DependencyInjectionBootcamp.swift */; };
 		F1AC3BA5297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC3BA4297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift */; };
 		F1AC3BA729758525004CCAB8 /* DownloadImageAsyncBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC3BA629758525004CCAB8 /* DownloadImageAsyncBootcamp.swift */; };
 		F1CBA732296E9D2000AA4BC7 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBA731296E9D2000AA4BC7 /* SwiftUILearningApp.swift */; };
@@ -67,6 +68,7 @@
 		F1A38C6B296FE47200CEFC64 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		F1A38C6F296FEC6800CEFC64 /* BackgroundThreadsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadsBootcamp.swift; sourceTree = "<group>"; };
 		F1A38C71296FF7A900CEFC64 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		F1ABBCDB299E0C8B009AFB16 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		F1AC3BA4297576B2004CCAB8 /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
 		F1AC3BA629758525004CCAB8 /* DownloadImageAsyncBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncBootcamp.swift; sourceTree = "<group>"; };
 		F1CBA72E296E9D2000AA4BC7 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +205,7 @@
 				F191B04F29780FB20072A8A2 /* ActorsBootcamp.swift */,
 				F191B051297817810072A8A2 /* GlobalActorBootcamp.swift */,
 				F191B05529781CDA0072A8A2 /* AsyncPublisherBootcamp.swift */,
+				F1ABBCDB299E0C8B009AFB16 /* DependencyInjectionBootcamp.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A38C6C296FE47200CEFC64 /* HashableBootcamp.swift in Sources */,
+				F1ABBCDC299E0C8B009AFB16 /* DependencyInjectionBootcamp.swift in Sources */,
 				F10CD41429718216006E76A3 /* ViewBuilderBootcamp.swift in Sources */,
 				F1CBA759296EF45600AA4BC7 /* SoundsBootcamp.swift in Sources */,
 				F1CBA751296EDD1100AA4BC7 /* UIApplication.swift in Sources */,
